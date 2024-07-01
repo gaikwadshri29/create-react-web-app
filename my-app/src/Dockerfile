@@ -1,0 +1,6 @@
+FROM node
+WORKDIR /app
+COPY . /app
+RUN npm install react 
+CMD ["npm","start"]
+EXPOSE 3000
